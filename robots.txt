@@ -1,0 +1,7 @@
+# Robots.txt from CRF Home
+# ---------------------------
+User-agent: *
+Allow: *
+Sitemap: https://www.crfnetwork.com/sitemap.xml
+# ---------------------------
+# Hello, what you found here
