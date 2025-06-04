@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,45 +11,54 @@
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4444769016710912"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        
+
         body {
             font-family: 'Poppins', sans-serif;
             scroll-behavior: smooth;
         }
-        
+
         .hero-gradient {
             background: linear-gradient(135deg, #0f2027, #204320, #34642c);
         }
-        
+
         .card-hover:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
-        
+
         .social-icon {
             transition: all 0.3s ease;
         }
-        
+
         .social-icon:hover {
             transform: scale(1.2);
         }
-        
+
         .animate-float {
             animation: float 6s ease-in-out infinite;
         }
-        
+
         @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0px); }
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
         }
     </style>
 </head>
+
 <body class="bg-gray-50">
     <!-- Navigation -->
     <nav class="bg-white shadow-md fixed w-full z-10">
@@ -58,7 +67,7 @@
                 <div class="text-green-600 text-3xl font-bold">CRF</div>
                 <div class="hidden md:block text-gray-600 text-sm">Coding Reshape Future</div>
             </div>
-            
+
             <div class="hidden md:flex space-x-8">
                 <a href="#home" class="text-gray-700 hover:text-green-600 font-medium">Home</a>
                 <a href="#about" class="text-gray-700 hover:text-green-600 font-medium">About</a>
@@ -66,14 +75,14 @@
                 <a href="#community" class="text-gray-700 hover:text-green-600 font-medium">Community</a>
                 <a href="#contact" class="text-gray-700 hover:text-green-600 font-medium">Contact</a>
             </div>
-            
+
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-gray-700 focus:outline-none">
                     <i class="fa-solid fa-bars text-xl"></i>
                 </button>
             </div>
         </div>
-        
+
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="container mx-auto px-4 py-2 flex flex-col space-y-3">
@@ -93,25 +102,36 @@
                 <div class="md:w-1/2 text-center md:text-left text-white">
                     <h1 class="text-4xl md:text-6xl font-bold mb-4">Hello, we are CRF</h1>
                     <h2 class="text-xl md:text-3xl font-light mb-8">- Coding Reshape Future -</h2>
-                    <p class="text-lg md:text-xl mb-8 opacity-90">We provide free technology, education and support solutions for those who are just starting out, out of the industry or struggling in the IT industry.</p>
+                    <p class="text-lg md:text-xl mb-8 opacity-90">We provide free technology, education and support
+                        solutions for those who are just starting out, out of the industry or struggling in the IT
+                        industry.</p>
                     <div class="flex flex-wrap justify-center md:justify-start gap-4">
-                        <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Get Started</a>
-                        <a href="#about" class="bg-transparent border-2 border-white text-white font-medium py-3 px-6 rounded-lg hover:bg-white hover:text-green-600 transition duration-300">Learn More</a>
+                        <a href="#contact"
+                            class="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Get
+                            Started</a>
+                        <a href="#about"
+                            class="bg-transparent border-2 border-white text-white font-medium py-3 px-6 rounded-lg hover:bg-white hover:text-green-600 transition duration-300">Learn
+                            More</a>
                     </div>
                 </div>
                 <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
                     <div class="animate-float">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 200 200" class="text-white">
-                            <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="2"></circle>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="350" height="350" viewBox="0 0 200 200"
+                            class="text-white">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="2">
+                            </circle>
                             <g fill="none" stroke="currentColor">
                                 <path d="M40,70 Q100,20 160,70" stroke-width="2"></path>
                                 <path d="M40,130 Q100,180 160,130" stroke-width="2"></path>
                                 <path d="M70,40 Q20,100 70,160" stroke-width="2"></path>
                                 <path d="M130,40 Q180,100 130,160" stroke-width="2"></path>
-                            </g><image href="https://cdn.crfnetwork.com/images/crf/crf-logo-clean.png" x="60" y="60" width="80" height="80"></image>
-                            
+                            </g>
+                            <image href="https://cdn.crfnetwork.com/images/crf/crf-logo-clean.png" x="60" y="60"
+                                width="80" height="80"></image>
+
                             <circle cx="100" cy="100" r="40" fill="rgba(255,255,255,0.1)"></circle>
-                            <text x="50%" y="190px" dominant-baseline="middle" text-anchor="middle" fill="currentColor" font-size="10">CODING RESHAPE FUTURE</text>
+                            <text x="50%" y="190px" dominant-baseline="middle" text-anchor="middle" fill="currentColor"
+                                font-size="10">CODING RESHAPE FUTURE</text>
                         </svg>
                     </div>
                 </div>
@@ -126,15 +146,20 @@
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About CRF</h2>
                 <div class="w-24 h-1 bg-green-600 mx-auto"></div>
             </div>
-            
+
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2">
                     <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
-                    <p class="text-gray-600 mb-6">We put a lot of effort into how young people can have the best programming background. We also create a blended learning environment where young people can learn and share knowledge with each other. At the same time, we also build an accurate and efficient knowledge system.</p>
-                    
+                    <p class="text-gray-600 mb-6">We put a lot of effort into how young people can have the best
+                        programming background. We also create a blended learning environment where young people can
+                        learn and share knowledge with each other. At the same time, we also build an accurate and
+                        efficient knowledge system.</p>
+
                     <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
-                    <p class="text-gray-600 mb-6">We are always eager to synthesize and share all of our knowledge about technology, programming, security, and a lot of useful knowledge about pre-IT for everyone to help young people can follow their passion and the path they have chosen.</p>
-                    
+                    <p class="text-gray-600 mb-6">We are always eager to synthesize and share all of our knowledge about
+                        technology, programming, security, and a lot of useful knowledge about pre-IT for everyone to
+                        help young people can follow their passion and the path they have chosen.</p>
+
                     <div class="flex flex-wrap gap-4 mt-8">
                         <div class="flex items-center">
                             <div class="bg-green-100 p-3 rounded-full mr-3">
@@ -156,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="md:w-1/2 grid grid-cols-2 gap-6">
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover transition-all duration-300">
                         <div class="text-green-600 text-3xl mb-4">
@@ -165,15 +190,16 @@
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">Coding Expertise</h4>
                         <p class="text-gray-600">Expert-led training in modern programming languages and frameworks.</p>
                     </div>
-                    
+
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover transition-all duration-300">
                         <div class="text-green-600 text-3xl mb-4">
                             <i class="fa-solid fa-chalkboard-teacher"></i>
                         </div>
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">Education Platform</h4>
-                        <p class="text-gray-600">Comprehensive learning resources for beginners to advanced developers.</p>
+                        <p class="text-gray-600">Comprehensive learning resources for beginners to advanced developers.
+                        </p>
                     </div>
-                    
+
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover transition-all duration-300">
                         <div class="text-green-600 text-3xl mb-4">
                             <i class="fa-solid fa-handshake"></i>
@@ -181,7 +207,7 @@
                         <h4 class="text-xl font-semibold text-gray-800 mb-2">Industry Partnerships</h4>
                         <p class="text-gray-600">Collaborations with leading tech companies and organizations.</p>
                     </div>
-                    
+
                     <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover transition-all duration-300">
                         <div class="text-green-600 text-3xl mb-4">
                             <i class="fa-solid fa-rocket"></i>
@@ -200,9 +226,10 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Services</h2>
                 <div class="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">We offer a comprehensive range of services designed to help individuals and organizations harness the power of technology.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">We offer a comprehensive range of services designed to help
+                    individuals and organizations harness the power of technology.</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all duration-300">
                     <div class="bg-green-600 text-white p-4 text-center">
@@ -210,33 +237,36 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Coding Education</h3>
-                        <p class="text-gray-600 mb-4">Structured courses, workshops, and tutorials for all skill levels. Learn programming languages, frameworks, and development methodologies.</p>
+                        <p class="text-gray-600 mb-4">Structured courses, workshops, and tutorials for all skill levels.
+                            Learn programming languages, frameworks, and development methodologies.</p>
                         <a href="#" class="text-green-600 font-medium hover:underline flex items-center">
                             Learn more <i class="fa-solid fa-arrow-right ml-2"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all duration-300">
                     <div class="bg-green-600 text-white p-4 text-center">
                         <i class="fa-solid fa-users-gear text-4xl"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Community Building</h3>
-                        <p class="text-gray-600 mb-4">Join our thriving community of developers, mentors, and tech enthusiasts. Networking events, forums, and collaborative projects.</p>
+                        <p class="text-gray-600 mb-4">Join our thriving community of developers, mentors, and tech
+                            enthusiasts. Networking events, forums, and collaborative projects.</p>
                         <a href="#" class="text-green-600 font-medium hover:underline flex items-center">
                             Learn more <i class="fa-solid fa-arrow-right ml-2"></i>
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg shadow-md overflow-hidden card-hover transition-all duration-300">
                     <div class="bg-green-600 text-white p-4 text-center">
                         <i class="fa-solid fa-gears text-4xl"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Tech Solutions</h3>
-                        <p class="text-gray-600 mb-4">Custom software development, consulting services, and technical support for businesses and organizations of all sizes.</p>
+                        <p class="text-gray-600 mb-4">Custom software development, consulting services, and technical
+                            support for businesses and organizations of all sizes.</p>
                         <a href="#" class="text-green-600 font-medium hover:underline flex items-center">
                             Learn more <i class="fa-solid fa-arrow-right ml-2"></i>
                         </a>
@@ -252,9 +282,10 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Join Our Community</h2>
                 <div class="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">Connect with like-minded individuals, share knowledge, and grow together in our vibrant tech community.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Connect with like-minded individuals, share knowledge, and
+                    grow together in our vibrant tech community.</p>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover transition-all duration-300">
                     <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -262,27 +293,33 @@
                     </div>
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">Fanpage Facebook</h3>
                     <p class="text-gray-600 mb-4">Follow our page for updates, events, and tech insights.</p>
-                    <a href="https://www.facebook.com/codingreshapefuture/" target="_blank" class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Follow Us</a>
+                    <a href="https://www.facebook.com/codingreshapefuture/" target="_blank"
+                        class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Follow
+                        Us</a>
                 </div>
-                
+
                 <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover transition-all duration-300">
                     <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa-solid fa-user-group text-green-600 text-2xl"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">Facebook Group</h3>
                     <p class="text-gray-600 mb-4">Join our community group for beginners in IT and coding.</p>
-                    <a href="https://www.facebook.com/groups/itforbeginners/" target="_blank" class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Join Now</a>
+                    <a href="https://www.facebook.com/groups/itforbeginners/" target="_blank"
+                        class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Join
+                        Now</a>
                 </div>
-                
+
                 <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover transition-all duration-300">
                     <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa-brands fa-youtube text-green-600 text-2xl"></i>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">YouTube Channels</h3>
                     <p class="text-gray-600 mb-4">Educational videos, tutorials, and tech discussions.</p>
-		    <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank" class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Official Channel</a>
+                    <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank"
+                        class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Official
+                        Channel</a>
                 </div>
-                
+
                 <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover transition-all duration-300">
                     <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fa-solid fa-school text-green-600 text-2xl"></i>
@@ -290,31 +327,41 @@
                     <h3 class="text-lg font-semibold text-gray-800 mb-2">Education Platform</h3>
                     <p class="text-gray-600 mb-4">Access our comprehensive learning resources and courses.</p>
                     <div class="flex flex-col space-y-2">
-                        <a href="https://blog.crfnetwork.com/" target="_blank" class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Technical Blogs</a>
-                        <a href="https://education.crfnetwork.com/" target="_blank" class="inline-block bg-gray-200 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300">Start Learning</a>
+                        <a href="https://blog.crfnetwork.com/" target="_blank"
+                            class="inline-block bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition duration-300">Technical
+                            Blogs</a>
+                        <a href="https://education.crfnetwork.com/" target="_blank"
+                            class="inline-block bg-gray-200 text-gray-700 py-2 px-4 rounded-lg hover:bg-gray-300 transition duration-300">Start
+                            Learning</a>
                     </div>
                 </div>
             </div>
-            
+
             <div class="mt-16 text-center">
                 <h3 class="text-2xl font-semibold text-gray-800 mb-6">Follow Us On Social Media</h3>
                 <div class="flex flex-wrap justify-center gap-6">
-                    <a href="https://www.facebook.com/codingreshapefuture/" target="_blank" class="social-icon text-blue-600 hover:text-green-800 text-3xl">
+                    <a href="https://www.facebook.com/codingreshapefuture/" target="_blank"
+                        class="social-icon text-blue-600 hover:text-green-800 text-3xl">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank" class="social-icon text-red-600 hover:text-red-800 text-3xl">
+                    <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank"
+                        class="social-icon text-red-600 hover:text-red-800 text-3xl">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
-                    <a href="https://www.tiktok.com/@codingreshapefuture/" target="_blank" class="social-icon text-gray-800 hover:text-black text-3xl">
+                    <a href="https://www.tiktok.com/@codingreshapefuture/" target="_blank"
+                        class="social-icon text-gray-800 hover:text-black text-3xl">
                         <i class="fa-brands fa-tiktok"></i>
                     </a>
-                    <a href="https://blog.crfnetwork.com/" target="_blank" class="social-icon text-orange-600 hover:text-orange-800 text-3xl">
+                    <a href="https://blog.crfnetwork.com/" target="_blank"
+                        class="social-icon text-orange-600 hover:text-orange-800 text-3xl">
                         <i class="fa-solid fa-pen-to-square"></i>
                     </a>
-                    <a href="https://github.com/codingreshapefuture/" target="_blank" class="social-icon text-gray-800 hover:text-black text-3xl">
+                    <a href="https://github.com/codingreshapefuture/" target="_blank"
+                        class="social-icon text-gray-800 hover:text-black text-3xl">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/company/codingreshapefuture/" target="_blank" class="social-icon text-blue-700 hover:text-green-900 text-3xl">
+                    <a href="https://www.linkedin.com/company/codingreshapefuture/" target="_blank"
+                        class="social-icon text-blue-700 hover:text-green-900 text-3xl">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
@@ -328,13 +375,14 @@
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
                 <div class="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">Have questions or want to learn more about our services? Reach out to us today.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Have questions or want to learn more about our services?
+                    Reach out to us today.</p>
             </div>
-            
+
             <div class="flex flex-col md:flex-row gap-12">
                 <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold text-gray-800 mb-6">Contact Information</h3>
-                    
+
                     <div class="space-y-6">
                         <div class="flex items-start">
                             <div class="bg-green-100 p-3 rounded-full mr-4">
@@ -345,7 +393,7 @@
                                 <p class="text-gray-600">admin@crfnetwork.com</p>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-start">
                             <div class="bg-green-100 p-3 rounded-full mr-4">
                                 <i class="fa-solid fa-location-dot text-green-600"></i>
@@ -355,7 +403,7 @@
                                 <p class="text-gray-600">52 P. Hai Bà Trưng, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội</p>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-start">
                             <div class="bg-green-100 p-3 rounded-full mr-4">
                                 <i class="fa-solid fa-phone text-green-600"></i>
@@ -367,27 +415,35 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="md:w-1/2 bg-white p-8 rounded-lg shadow-md">
                     <h3 class="text-2xl font-semibold text-gray-800 mb-6">Send Us a Message</h3>
-                    
+
                     <form id="contact-form" class="space-y-6">
                         <div>
                             <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
-                            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" placeholder="Enter your name" required>
+                            <input type="text" id="name" name="name"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
+                                placeholder="Enter your name" required>
                         </div>
-                        
+
                         <div>
                             <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" placeholder="Enter your email" required>
+                            <input type="email" id="email" name="email"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
+                                placeholder="Enter your email" required>
                         </div>
-                        
+
                         <div>
                             <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600" placeholder="Enter your message" required></textarea>
+                            <textarea id="message" name="message" rows="4"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
+                                placeholder="Enter your message" required></textarea>
                         </div>
-                        
-                        <button type="submit" class="w-full bg-green-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">Send Message</button>
+
+                        <button type="submit"
+                            class="w-full bg-green-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-green-700 transition duration-300">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
@@ -401,56 +457,72 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-4">CRF</h3>
                     <p class="text-gray-400 mb-4">Coding Reshape Future Co. LTD</p>
-                    <p class="text-gray-400">Empowering the next generation of developers through education, community, and innovation.</p>
+                    <p class="text-gray-400">Empowering the next generation of developers through education, community,
+                        and innovation.</p>
                 </div>
-                
+
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="#home" class="text-gray-400 hover:text-white transition duration-300">Home</a></li>
-                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a></li>
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
-                        <li><a href="#community" class="text-gray-400 hover:text-white transition duration-300">Community</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition duration-300">About</a>
+                        </li>
+                        <li><a href="#services"
+                                class="text-gray-400 hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="#community"
+                                class="text-gray-400 hover:text-white transition duration-300">Community</a></li>
+                        <li><a href="#contact"
+                                class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Resources</h3>
                     <ul class="space-y-2">
-                        <li><a href="https://blog.crfnetwork.com/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
-                        <li><a href="https://education.crfnetwork.com/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">Education Platform</a></li>
-                        <li><a href="https://github.com/codingreshapefuture/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">GitHub</a></li>
-                        <li><a href="https://blog.crfnetwork.com/privacy-policy/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://blog.crfnetwork.com/" target="_blank"
+                                class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="https://education.crfnetwork.com/" target="_blank"
+                                class="text-gray-400 hover:text-white transition duration-300">Education Platform</a>
+                        </li>
+                        <li><a href="https://github.com/codingreshapefuture/" target="_blank"
+                                class="text-gray-400 hover:text-white transition duration-300">GitHub</a></li>
+                        <li><a href="https://blog.crfnetwork.com/privacy-policy/" target="_blank"
+                                class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Connect With Us</h3>
                     <div class="flex space-x-4 mb-4">
-                        <a href="https://www.facebook.com/codingreshapefuture/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <a href="https://www.facebook.com/codingreshapefuture/" target="_blank"
+                            class="text-gray-400 hover:text-white transition duration-300">
                             <i class="fa-brands fa-facebook text-xl"></i>
                         </a>
-                        <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <a href="https://www.youtube.com/@CodingReshapeFuture/" target="_blank"
+                            class="text-gray-400 hover:text-white transition duration-300">
                             <i class="fa-brands fa-youtube text-xl"></i>
                         </a>
-                        <a href="https://www.tiktok.com/@codingreshapefuture/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <a href="https://www.tiktok.com/@codingreshapefuture/" target="_blank"
+                            class="text-gray-400 hover:text-white transition duration-300">
                             <i class="fa-brands fa-tiktok text-xl"></i>
                         </a>
-                        <a href="https://www.linkedin.com/company/codingreshapefuture/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <a href="https://www.linkedin.com/company/codingreshapefuture/" target="_blank"
+                            class="text-gray-400 hover:text-white transition duration-300">
                             <i class="fa-brands fa-linkedin text-xl"></i>
                         </a>
                     </div>
                     <p class="text-gray-400">Subscribe to our newsletter for updates</p>
                     <div class="mt-2 flex">
-                        <input type="email" placeholder="Your email" class="px-4 py-2 text-gray-700 rounded-l-lg focus:outline-none flex-grow">
-                        <button class="bg-green-600 text-white px-4 py-2 rounded-r-lg hover:bg-green-700 transition duration-300">
+                        <input type="email" placeholder="Your email"
+                            class="px-4 py-2 text-gray-700 rounded-l-lg focus:outline-none flex-grow">
+                        <button
+                            class="bg-green-600 text-white px-4 py-2 rounded-r-lg hover:bg-green-700 transition duration-300">
                             <i class="fa-solid fa-paper-plane"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            
+
             <div class="border-t border-gray-700 mt-8 pt-8 text-center">
                 <p class="text-gray-400">&copy; 2023 CRF - Coding Reshape Future Co. LTD. All rights reserved.</p>
             </div>
@@ -461,25 +533,25 @@
         // Mobile menu toggle
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         menuToggle.addEventListener('click', () => {
             mobileMenu.classList.toggle('hidden');
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 70,
                         behavior: 'smooth'
                     });
-                    
+
                     // Close mobile menu if open
                     if (!mobileMenu.classList.contains('hidden')) {
                         mobileMenu.classList.add('hidden');
@@ -487,20 +559,21 @@
                 }
             });
         });
-        
+
         // Contact form submission
         const contactForm = document.getElementById('contact-form');
-        
-        contactForm.addEventListener('submit', function(e) {
+
+        contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
-            
+
             const name = document.getElementById('name').value;
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
-            
+
             // This is a demo form - in a real implementation, you would send this data to a server
             alert(`Thanks for contacting us, ${name}. But the contact form is a demo feature only! Please send us an email using your email ${email}`);
             contactForm.reset();
         });
     </script>
+
 </html>
